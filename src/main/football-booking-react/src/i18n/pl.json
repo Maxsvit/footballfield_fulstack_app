@@ -1,0 +1,23 @@
+{
+  "title": "Aplikacja Rezerwacji Boisk Piłki Nożnej ",
+  "login": "Zaloguj się",
+  "logout": "Wyloguj",
+  "describe": "Witamy w Systemie Rezerwacji Boisk Piłkarskich! Zarządzaj swoimi rezerwacjami, odkrywaj boiska i ciesz się bezproblemową funkcjonalnością.",
+  "register": "Zarejestruj się",
+  "data": "Twoje Dane",
+  "description": "Opis",
+  "adress": "Adres",
+  "cost": "Koszt wynajmu",
+  "previous": "Poprzedni",
+  "next": "Nastepny",
+  "booknow": "Rezerwuj",
+  "fields": "Boiska",
+  "bookings": "Rezerwacje",
+  "users": "Użytkownicy",
+  "language.en": "Angielski",
+  "language.pl": "Polski",
+  "welcome": "Witaj!",
+  "noData": "Brak danych.",
+  "page": "Strona",
+  "of": "z"
+}

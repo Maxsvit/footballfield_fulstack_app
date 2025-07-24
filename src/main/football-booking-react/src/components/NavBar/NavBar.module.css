@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-family: "Arial Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: #e3f2fd;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #ffcc80;
+  text-shadow: 0 0 5px #ffcc80;
+}
+
+.auth {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #42a5f5;
+  box-shadow: 0px 4px 15px rgba(33, 150, 243, 0.4);
+}
+
+.logoutButton {
+  background-color: #e53935;
+}
+
+.logoutButton:hover {
+  background-color: #d32f2f;
+  box-shadow: 0px 4px 15px rgba(211, 47, 47, 0.4);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .auth {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

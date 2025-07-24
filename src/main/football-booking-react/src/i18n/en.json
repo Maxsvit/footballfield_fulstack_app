@@ -1,0 +1,23 @@
+{
+  "title": "Field Football Booking App",
+  "login": "Login",
+  "logout": "Logout",
+  "describe": "Welcome to the Football Field Booking System! Manage your bookings, explore fields, and enjoy seamless functionality.",
+  "register": "Register",
+  "description": "Description",
+  "data": "Your Information",
+  "adress": "Adress",
+  "cost": "Rental Cost",
+  "previous": "Previous",
+  "next": "Next",
+  "booknow": "Book Now",
+  "fields": "Fields",
+  "bookings": "Bookings",
+  "users": "Users",
+  "language.en": "English",
+  "language.pl": "Polish",
+  "welcome": "Welcome!",
+  "noData": "No data available.",
+  "page": "Page",
+  "of": "of"
+}
