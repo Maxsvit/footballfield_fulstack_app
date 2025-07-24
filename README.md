@@ -44,7 +44,7 @@ A full-stack web application for managing football field reservations. Admins ca
 ## 📁 Project Structure
 
 ```
-├── backend/
+├── football_booking/
 │   ├── config/              # CORS, SecurityConfig
 │   ├── controller/          # REST Controllers
 │   ├── model/               # Entities (User, Booking, Field)
@@ -52,7 +52,7 @@ A full-stack web application for managing football field reservations. Admins ca
 │   ├── service/             # Business logic
 │   └── security/            # JWT filter, UserDetailsService
 │
-└── frontend/
+└── football-booking-react/
     ├── components/          # Reusable React components
     ├── pages/               # Login, Register, Bookings, Admin views
     ├── services/            # API calls (Axios)
@@ -66,14 +66,14 @@ A full-stack web application for managing football field reservations. Admins ca
 ### Backend
 
 ```bash
-cd backend
+cd football_booking
 ./mvnw spring-boot:run
 ```
 
 ### Frontend
 
 ```bash
-cd frontend
+cd football-booking-react
 npm install
 npm run dev
 ```
